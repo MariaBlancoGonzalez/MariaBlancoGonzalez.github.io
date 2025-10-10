@@ -4,6 +4,7 @@ import '../styles/AcademiaPage.css';
 const AcademiaPage = () => {
   return (
     <div className="academia-section">
+      {/* Sección superior para publicaciones y premios */}
       <div className="academia-investigadora">
         <div className="academia-timeline-title" style={{textAlign: 'center', marginTop: '2rem'}}>
           <h2>Vida Investigadora</h2>
@@ -38,7 +39,9 @@ const AcademiaPage = () => {
           </div>
         </div>
       </div>
+      {/* Trayectorias profesional y académica centradas */}
       <div className="academia-content academia-duo-centered">
+        {/* Columna profesional */}
         <div className="academia-col">
           <div className="academia-timeline-title">
             <h2>Trayectoria Profesional</h2>
@@ -50,7 +53,9 @@ const AcademiaPage = () => {
               <div className="timeline-content">
                 <h3>Personal de investigación (Jornada completa)</h3>
                 <p className="institution">Universidad de Castilla-La Mancha</p>
-                <p className="description">Ciudad Real, Castilla-La Mancha, España</p>
+                <p className="description">
+                  Ciudad Real, Castilla-La Mancha, España
+                </p>
               </div>
             </div>
             <div className="timeline-item">
@@ -58,7 +63,9 @@ const AcademiaPage = () => {
               <div className="timeline-content">
                 <h3>Personal de investigación (Jornada parcial)</h3>
                 <p className="institution">Universidad de Castilla-La Mancha</p>
-                <p className="description">Ciudad Real, Castilla-La Mancha, España</p>
+                <p className="description">
+                  Ciudad Real, Castilla-La Mancha, España
+                </p>
               </div>
             </div>
             <div className="timeline-item">
@@ -66,11 +73,14 @@ const AcademiaPage = () => {
               <div className="timeline-content">
                 <h3>Estudiante en prácticas</h3>
                 <p className="institution">Comunitelia</p>
-                <p className="description">Contrato de prácticas, Feb. 2022 - Jul. 2022 · 6 meses</p>
+                <p className="description">
+                  Contrato de prácticas, Feb. 2022 - Jul. 2022 · 6 meses
+                </p>
               </div>
             </div>
           </div>
         </div>
+        {/* Columna académica */}
         <div className="academia-col">
           <div className="academia-timeline-title">
             <h2>Trayectoria Académica</h2>
@@ -82,7 +92,9 @@ const AcademiaPage = () => {
               <div className="timeline-content">
                 <h3>PhD Candidate</h3>
                 <p className="institution">Universidad de Castilla-La Mancha</p>
-                <p className="description">Doctorado en CC. y Tec. Aplicadas a la Ing. Industrial.</p>
+                <p className="description">
+                  Doctorado en CC. y Tec. Aplicadas a la Ing. Industrial.
+                </p>
               </div>
             </div>
             <div className="timeline-item">
@@ -90,7 +102,9 @@ const AcademiaPage = () => {
               <div className="timeline-content">
                 <h3>Máster en Ciencia de Datos</h3>
                 <p className="institution">Universitat Oberta de Catalunya</p>
-                <p className="description">Tesis sobre Modelos multimodales aplicados a la microbiología.</p>
+                <p className="description">
+                  Tesis sobre Modelos multimodales aplicados a la microbiología.
+                </p>
               </div>
             </div>
             <div className="timeline-item">
@@ -98,7 +112,9 @@ const AcademiaPage = () => {
               <div className="timeline-content">
                 <h3>Grado en Ingeniería Informática</h3>
                 <p className="institution">Universidad de Castilla-La Mancha</p>
-                <p className="description">Especialización en Computación. Mención Bilingüe. Proyecto final enfocado en la rehabilitación de niños con el Síndrome de Prader Willi.</p>
+                <p className="description">
+                  Especialización en Computación. Mención Bilingüe. Proyecto final enfocado en la rehabilitación de niños con el Síndrome de Prader Willi.
+                </p>
               </div>
             </div>
           </div>

@@ -24,7 +24,7 @@ export default function App() {
                     particleColors={['#8b7355', '#a68b5b']}
                     particleCount={150}
                     particleSpread={10}
-                    speed={0.08}
+                    speed={0.05}
                     particleBaseSize={80}
                     moveParticlesOnHover={true}
                     alphaParticles={true}
