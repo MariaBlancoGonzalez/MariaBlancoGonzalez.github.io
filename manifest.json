@@ -1,15 +1,8 @@
 {
-  "short_name": "María Blanco González",
-  "name": "María Blanco González - PhD Candidate Portfolio",
-  "icons": [
-    {
-      "src": "favicon.ico",
-      "sizes": "64x64 32x32 24x24 16x16",
-      "type": "image/x-icon"
-    }
-  ],
+  "short_name": "MB Portfolio",
+  "name": "María Blanco González Portfolio",
   "start_url": ".",
   "display": "standalone",
-  "theme_color": "#f5f1eb",
-  "background_color": "#f5f1eb"
+  "theme_color": "#8b7355",
+  "background_color": "#fff8f6"
 }
