@@ -5,13 +5,13 @@ const projects = [
   {
     title: 'Cyanobacteria Classification',
     description: 'Modelo multimodal que combina CNN y Transformers para clasificación automática de cianobacterias usando imágenes de microscopía.',
-    image: 'https://images.unsplash.com/photo-1579952363873-27d3bfad9c0d?auto=format&fit=crop&w=400&q=80',
-    link: 'https://link.springer.com/article/10.1007/s10452-024-10127-4'
+    image: 'https://images.unsplash.com/photo-1579781403299-11c35baa47e2?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&fm=jpg&q=60&w=3000',
+    link: 'https://link.springer.com/article/10.1007/s10452-025-10227-5'
   },
   {
     title: 'Edge Computing Pipeline',
     description: 'Sistema de procesamiento en tiempo real para aplicaciones de microscopía de bajo coste usando edge computing.',
-    image: 'https://images.unsplash.com/photo-1518709268805-4e9042af2176?auto=format&fit=crop&w=400&q=80',
+    image: '/assets/openflexure.png',
     link: 'https://www.mdpi.com/2079-9292/14/1/162'
   },
   {

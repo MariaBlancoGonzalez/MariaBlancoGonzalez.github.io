@@ -14,7 +14,7 @@ const AcademiaPage = () => {
             <h4>Publicaciones Top</h4>
             <ul>
               <li>
-                <a href="https://link.springer.com/article/10.1007/s10452-024-10127-4" target="_blank" rel="noopener noreferrer">
+                <a href="https://link.springer.com/article/10.1007/s10452-025-10227-5" target="_blank" rel="noopener noreferrer">
                   Multimodal Deep Learning for Cyanobacteria Classification: A Fusion of CNN and Transformer Architectures - Aquatic Ecology, 2025
                 </a>
               </li>
