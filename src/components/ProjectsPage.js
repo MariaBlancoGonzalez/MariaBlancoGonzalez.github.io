@@ -18,15 +18,17 @@ const projects = [
     title: 'Prader-Willi Rehabilitation',
     description: 'Aplicación de rehabilitación para niños con Síndrome de Prader-Willi usando tecnologías interactivas.',
     image: 'https://images.unsplash.com/photo-1559757148-5c350d0d3c56?auto=format&fit=crop&w=400&q=80',
-    link: 'https://github.com/MariaBlancoGonzalez'
+    link: 'https://github.com/MariaBlancoGonzalez/PraderWilli-Rehab'
   },
   {
-    title: 'Computer Vision Toolkit',
-    description: 'Herramientas de visión por computador para análisis automatizado de imágenes médicas y biológicas.',
-    image: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=400&q=80',
-    link: 'https://github.com/MariaBlancoGonzalez'
+    title: 'WSI Stitching Tool',
+    description: 'Herramienta para la reconstrucción de imágenes WSI a partir de patches con coordenadas.',
+    image: 'https://plus.unsplash.com/premium_photo-1725650439956-68d055fd1595?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&fm=jpg&q=60&w=3000',
+    link: 'https://github.com/MariaBlancoGonzalez/Grid-Pattern-Stiching'
   },
-  {
+];
+
+{/*{
     title: 'Tu Proyecto Aquí',
     description: 'Espacio reservado para que agregues uno de tus proyectos destacados.',
     image: 'https://images.unsplash.com/photo-1465101178521-c1a4c8a0a8b7?auto=format&fit=crop&w=400&q=80',
@@ -38,7 +40,7 @@ const projects = [
     image: 'https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=400&q=80',
     link: 'https://github.com/MariaBlancoGonzalez'
   }
-];
+*/}
 
 function ProjectCard({ title, description, image, link }) {
   return (

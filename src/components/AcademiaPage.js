@@ -28,7 +28,7 @@ const AcademiaPage = () => {
           <div className="highlight-section">
             <h4>Conferencias</h4>
             <ul>
-              <li>CASEIB 2025 - </li>
+              <li>CASEIB 2025 - Coloring cancer: GAN Powered Biomarker Synthesis from H&E Stains</li>
             </ul>
           </div>
           <div className="highlight-section">
