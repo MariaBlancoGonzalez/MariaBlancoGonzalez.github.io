@@ -28,20 +28,6 @@ const projects = [
   },
 ];
 
-{/*{
-    title: 'Tu Proyecto Aquí',
-    description: 'Espacio reservado para que agregues uno de tus proyectos destacados.',
-    image: 'https://images.unsplash.com/photo-1465101178521-c1a4c8a0a8b7?auto=format&fit=crop&w=400&q=80',
-    link: 'https://github.com/MariaBlancoGonzalez'
-  },
-  {
-    title: 'Tu Proyecto Aquí',
-    description: 'Espacio reservado para que agregues otro de tus proyectos destacados.',
-    image: 'https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=400&q=80',
-    link: 'https://github.com/MariaBlancoGonzalez'
-  }
-*/}
-
 function ProjectCard({ title, description, image, link }) {
   return (
     <div className="project-card">
