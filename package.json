@@ -1,7 +1,7 @@
 {
   "name": "mariablancogonzalez.github.io",
   "version": "1.0.0",
-  "homepage": "mariablancogonzalez.github.io",
+  "homepage": "/mariablancogonzalez.github.io",
   "private": true,
   "dependencies": {
     "ogl": "^1.0.11",
