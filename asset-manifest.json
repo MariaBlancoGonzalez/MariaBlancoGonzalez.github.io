@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/static/css/main.877ec376.css",
-    "main.js": "/static/js/main.a8409d2d.js",
-    "index.html": "/index.html",
-    "main.877ec376.css.map": "/static/css/main.877ec376.css.map",
-    "main.a8409d2d.js.map": "/static/js/main.a8409d2d.js.map"
+    "main.css": "/mariablancogonzalez.github.io/static/css/main.877ec376.css",
+    "main.js": "/mariablancogonzalez.github.io/static/js/main.11b1cc30.js",
+    "index.html": "/mariablancogonzalez.github.io/index.html",
+    "main.877ec376.css.map": "/mariablancogonzalez.github.io/static/css/main.877ec376.css.map",
+    "main.11b1cc30.js.map": "/mariablancogonzalez.github.io/static/js/main.11b1cc30.js.map"
   },
   "entrypoints": [
     "static/css/main.877ec376.css",
-    "static/js/main.a8409d2d.js"
+    "static/js/main.11b1cc30.js"
   ]
 }
