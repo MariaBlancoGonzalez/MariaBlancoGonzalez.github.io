@@ -23,6 +23,11 @@ const AcademiaPage = () => {
                   Real-Time Edge Computing vs. GPU-Accelerated Pipelines for Low-Cost Microscopy Applications. - Electronics, 2025
                 </a>
               </li>
+              <li>
+                <a href="https://digital.csic.es/bitstream/10261/373367/1/AI_Driven_Bueno_SPAOM_2024.pdf" target="_blank" rel="noopener noreferrer">
+                AI-driven automated identification and genetic characterization of planktonic cyanobacteria                
+                </a>
+              </li>
             </ul>
           </div>
           <div className="highlight-section">
