@@ -4,14 +4,14 @@ import '../styles/AcademiaPage.css';
 const AcademiaPage = () => {
   return (
     <div className="academia-section">
-      {/* Sección superior para publicaciones y premios */}
+      {/* Top section for publications and awards */}
       <div className="academia-investigadora">
         <div className="academia-timeline-title" style={{textAlign: 'center', marginTop: '2rem'}}>
-          <h2>Vida Investigadora</h2>
+          <h2>Research Career</h2>
         </div>
         <div className="academia-highlights academia-stack">
           <div className="highlight-section publicaciones">
-            <h4>Publicaciones Top</h4>
+            <h4>Top Publications</h4>
             <ul>
               <li>
                 <a href="https://link.springer.com/article/10.1007/s10452-025-10227-5" target="_blank" rel="noopener noreferrer">
@@ -23,102 +23,99 @@ const AcademiaPage = () => {
                   Real-Time Edge Computing vs. GPU-Accelerated Pipelines for Low-Cost Microscopy Applications. - Electronics, 2025
                 </a>
               </li>
-              <li>
-                <a href="https://digital.csic.es/bitstream/10261/373367/1/AI_Driven_Bueno_SPAOM_2024.pdf" target="_blank" rel="noopener noreferrer">
-                AI-driven automated identification and genetic characterization of planktonic cyanobacteria                
-                </a>
-              </li>
             </ul>
           </div>
           <div className="highlight-section">
-            <h4>Conferencias</h4>
+            <h4>Conferences</h4>
             <ul>
-              <li>CASEIB 2025 - Coloring cancer: GAN Powered Biomarker Synthesis from H&E Stains</li>
+              <li>CASEIB 2025 | Conference Paper | Coloring cancer: GAN Powered Biomarker Synthesis from H&E Stains</li>
+              <li>CASEIB 2025 | Poster | Overcoming Data Limitations in Digital Pathology through GAN-Based Image Generation: Application to Breast Cancer Classification</li>
+              <li>SPAOM 2024 | Poster | AI-driven automated identification and genetic characterization of planktonic cyanobacteria</li>
             </ul>
           </div>
           <div className="highlight-section">
-            <h4>Premios y Reconocimientos</h4>
+            <h4>Awards and Honors</h4>
             <ul>
-              <li>Matrícula de Honor - Trabajo fin de Master - 2024</li>
+              <li>Highest Honors - Master's Thesis - 2024</li>
             </ul>
           </div>
         </div>
       </div>
-      {/* Trayectorias profesional y académica centradas */}
+      {/* Centered professional and academic paths */}
       <div className="academia-content academia-duo-centered">
-        {/* Columna profesional */}
+        {/* Professional column */}
         <div className="academia-col">
           <div className="academia-timeline-title">
-            <h2>Trayectoria Profesional</h2>
-            <div className="academia-subtitle">Experiencia y Prácticas</div>
+            <h2>Professional Career</h2>
+            <div className="academia-subtitle">Experience and Internships</div>
           </div>
           <div className="academia-timeline">
             <div className="timeline-item">
-              <div className="timeline-year">2024 - Actualidad</div>
+              <div className="timeline-year">2024 - Present</div>
               <div className="timeline-content">
-                <h3>Personal de investigación (Jornada completa)</h3>
-                <p className="institution">Universidad de Castilla-La Mancha</p>
+                <h3>Research Staff (Full-time)</h3>
+                <p className="institution">University of Castilla-La Mancha</p>
                 <p className="description">
-                  Ciudad Real, Castilla-La Mancha, España
+                  Ciudad Real, Castilla-La Mancha, Spain
                 </p>
               </div>
             </div>
             <div className="timeline-item">
               <div className="timeline-year">2024</div>
               <div className="timeline-content">
-                <h3>Personal de investigación (Jornada parcial)</h3>
-                <p className="institution">Universidad de Castilla-La Mancha</p>
+                <h3>Research Staff (Part-time)</h3>
+                <p className="institution">University of Castilla-La Mancha</p>
                 <p className="description">
-                  Ciudad Real, Castilla-La Mancha, España
+                  Ciudad Real, Castilla-La Mancha, Spain
                 </p>
               </div>
             </div>
             <div className="timeline-item">
               <div className="timeline-year">2022</div>
               <div className="timeline-content">
-                <h3>Estudiante en prácticas</h3>
+                <h3>Internship Student</h3>
                 <p className="institution">Comunitelia</p>
                 <p className="description">
-                  Contrato de prácticas, Feb. 2022 - Jul. 2022 · 6 meses
+                  Internship contract, Feb. 2022 - Jul. 2022 · 6 months
                 </p>
               </div>
             </div>
           </div>
         </div>
-        {/* Columna académica */}
+        {/* Academic column */}
         <div className="academia-col">
           <div className="academia-timeline-title">
-            <h2>Trayectoria Académica</h2>
-            <div className="academia-subtitle">Formación y Desarrollo Profesional</div>
+            <h2>Academic Career</h2>
+            <div className="academia-subtitle">Education and Professional Development</div>
           </div>
           <div className="academia-timeline">
             <div className="timeline-item">
-              <div className="timeline-year">2024 - Presente</div>
+              <div className="timeline-year">2024 - Present</div>
               <div className="timeline-content">
                 <h3>PhD Candidate</h3>
-                <p className="institution">Universidad de Castilla-La Mancha</p>
+                <p className="institution">University of Castilla-La Mancha</p>
                 <p className="description">
-                  Doctorado en CC. y Tec. Aplicadas a la Ing. Industrial.
+                  PhD in Science and Technology Applied to Industrial Engineering.
                 </p>
               </div>
             </div>
             <div className="timeline-item">
               <div className="timeline-year">2023 - 2024</div>
               <div className="timeline-content">
-                <h3>Máster en Ciencia de Datos</h3>
-                <p className="institution">Universitat Oberta de Catalunya</p>
+                <h3>Master's in Data Science</h3>
+                <p className="institution">Open University of Catalonia</p>
                 <p className="description">
-                  Tesis sobre Modelos multimodales aplicados a la microbiología.
+                  Thesis on multimodal models applied to microbiology.
                 </p>
               </div>
             </div>
             <div className="timeline-item">
               <div className="timeline-year">2018 - 2023</div>
               <div className="timeline-content">
-                <h3>Grado en Ingeniería Informática</h3>
-                <p className="institution">Universidad de Castilla-La Mancha</p>
+                <h3>Bachelor's Degree in Computer Engineering</h3>
+                <p className="institution">University of Castilla-La Mancha</p>
                 <p className="description">
-                  Especialización en Computación. Mención Bilingüe. Proyecto final enfocado en la rehabilitación de niños con el Síndrome de Prader Willi.
+                  Specialization in Computing. Bilingual distinction. Final project focused on the rehabilitation of children with Prader-Willi Syndrome.
                 </p>
               </div>
             </div>

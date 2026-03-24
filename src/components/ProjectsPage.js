@@ -4,25 +4,25 @@ import '../styles/ProjectsPage.css';
 const projects = [
   {
     title: 'Cyanobacteria Classification',
-    description: 'Modelo multimodal que combina CNN y Transformers para clasificación automática de cianobacterias usando imágenes de microscopía.',
+    description: 'Multimodal model combining CNN and Transformers for automatic cyanobacteria classification using microscopy images.',
     image: 'https://images.unsplash.com/photo-1579781403299-11c35baa47e2?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&fm=jpg&q=60&w=3000',
     link: 'https://link.springer.com/article/10.1007/s10452-025-10227-5'
   },
   {
     title: 'Edge Computing Pipeline',
-    description: 'Sistema de procesamiento en tiempo real para aplicaciones de microscopía de bajo coste usando edge computing.',
+    description: 'Real-time processing system for low-cost microscopy applications using edge computing.',
     image: '/assets/openflexure.png',
     link: 'https://www.mdpi.com/2079-9292/14/1/162'
   },
   {
     title: 'Prader-Willi Rehabilitation',
-    description: 'Aplicación de rehabilitación para niños con Síndrome de Prader-Willi usando tecnologías interactivas.',
+    description: 'Rehabilitation application for children with Prader-Willi Syndrome using interactive technologies.',
     image: 'https://images.unsplash.com/photo-1559757148-5c350d0d3c56?auto=format&fit=crop&w=400&q=80',
     link: 'https://github.com/MariaBlancoGonzalez/PraderWilli-Rehab'
   },
   {
     title: 'WSI Stitching Tool',
-    description: 'Herramienta para la reconstrucción de imágenes WSI a partir de patches con coordenadas.',
+    description: 'Tool for reconstructing WSI images from coordinate-based patches.',
     image: 'https://plus.unsplash.com/premium_photo-1725650439956-68d055fd1595?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&fm=jpg&q=60&w=3000',
     link: 'https://github.com/MariaBlancoGonzalez/Grid-Pattern-Stiching'
   },
@@ -60,12 +60,12 @@ export default function ProjectsPage() {
     { name: 'Pandas', icon: '🐼', category: 'Data Science' },
     { name: 'Matplotlib', icon: '📊', category: 'Visualization' },
     { name: 'FastAPI', icon: '⚡', category: 'Backend' },
-    { name: 'BBDD', icon: '🗄️', category: 'Database' },
+    { name: 'Databases', icon: '🗄️', category: 'Database' },
   ];
 
   return (
     <div className="projects-page-bg">
-      <h2 className="projects-title">Proyectos Destacados</h2>
+      <h2 className="projects-title">Featured Projects</h2>
       <div className="projects-grid">
         {projects.map((project, idx) => (
           <ProjectCard key={idx} {...project} />
@@ -73,7 +73,7 @@ export default function ProjectsPage() {
       </div>
       
       <div className="technologies-section">
-        <h3 className="technologies-title">Tecnologías Utilizadas</h3>
+        <h3 className="technologies-title">Technologies Used</h3>
         <div className="technologies-grid">
           {technologies.map((tech, idx) => (
             <div key={idx} className="tech-card">
